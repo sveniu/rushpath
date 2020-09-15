@@ -12,3 +12,14 @@ of status.
 - Enable and disable TOTP-based MFA, like Google Authenticator or Authy.
 
 - Add or remove FIDO U2F devices, like Yubikeys.
+
+## Installing
+
+Installation is manual for now:
+
+```sh
+git clone https://github.com/sveniu/rushpath.git
+cd rushpath/cmd/rushpath/
+go build
+./rushpath
+```
