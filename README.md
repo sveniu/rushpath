@@ -6,3 +6,9 @@ password manager.
 WARNING! The implementation is incomplete and may cause issues, particularly
 around backup/setting synchronization. See the issue list for a better idea
 of status.
+
+## Features
+
+- Enable and disable TOTP-based MFA, like Google Authenticator or Authy.
+
+- Add or remove FIDO U2F devices, like Yubikeys.
